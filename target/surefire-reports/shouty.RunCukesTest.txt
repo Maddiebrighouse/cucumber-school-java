@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: shouty.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 4, Skipped: 5, Time elapsed: 1.123 sec <<< FAILURE!
+Given a person named Lucy(Scenario: Listener hears message)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException
+	at shouty.Person.<init>(Person.java:12)
+	at shouty.Stepdefs.a_person_named_Lucy(Stepdefs.java:31)
+	at ✽.Given a person named Lucy(shouty/shout.feature:15)
+
+Scenario: Listener hears message  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.NullPointerException
+	at shouty.Person.<init>(Person.java:12)
+	at shouty.Stepdefs.a_person_named_Lucy(Stepdefs.java:31)
+	at ✽.Given a person named Lucy(shouty/shout.feature:15)
+
+Given Lucy is 15m from Sean(Scenario: Listener hears a different message)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at shouty.Person.<init>(Person.java:12)
+	at shouty.Stepdefs.lucy_is_located_m_from_Sean(Stepdefs.java:25)
+	at ✽.Given Lucy is 15m from Sean(shouty/shout.feature:21)
+
+Scenario: Listener hears a different message  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at shouty.Person.<init>(Person.java:12)
+	at shouty.Stepdefs.lucy_is_located_m_from_Sean(Stepdefs.java:25)
+	at ✽.Given Lucy is 15m from Sean(shouty/shout.feature:21)
+

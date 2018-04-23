@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="0" name="shouty.RunCukesTest" time="0.076" errors="4" skipped="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10+46"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/madeleine/Workspace/cucumber-school-java"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="NZ"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/madeleine/Workspace/cucumber-school-java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10+46"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/s4/vz_s7lls5kv21b0115l30z6r0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/madeleine/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.3/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/madeleine"/>
+    <property name="user.timezone" value="Pacific/Auckland"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="madeleine"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-03-20"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Listener hears message" name="Given a person named Lucy" time="0.006">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at shouty.Person.&lt;init&gt;(Person.java:12)
+	at shouty.Stepdefs.a_person_named_Lucy(Stepdefs.java:31)
+	at ✽.Given a person named Lucy(shouty/shout.feature:15)
+</error>
+    <system-out>Feature: Shout
+  
+  In order to send location-sensitive messages to people nearby
+  As a shouter
+  I want to broadcast messages to people near me
+  
+  Rules:
+  - broadcast to all users
+  -don&apos;t worry about proximity yet
+  
+  To do:
+  - only shout to people within a certain distance
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Listener hears message" name="Scenario: Listener hears message" time="0.012">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at shouty.Person.&lt;init&gt;(Person.java:12)
+	at shouty.Stepdefs.a_person_named_Lucy(Stepdefs.java:31)
+	at ✽.Given a person named Lucy(shouty/shout.feature:15)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Listener hears message" name="And a person named Sean" time="0.015">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Listener hears message" name="When Sean shouts &quot;Free bagels!&quot;" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Listener hears message" name="Then Lucy hears Sean&apos;s message" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Listener hears a different message" name="Given Lucy is 15m from Sean" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at shouty.Person.&lt;init&gt;(Person.java:12)
+	at shouty.Stepdefs.lucy_is_located_m_from_Sean(Stepdefs.java:25)
+	at ✽.Given Lucy is 15m from Sean(shouty/shout.feature:21)
+</error>
+    <system-out>
+  Scenario: Listener hears message  &amp;#27;[90m# shouty/shout.feature:14&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31ma person named Lucy&amp;#27;[0m       &amp;#27;[90m# Stepdefs.a_person_named_Lucy()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at shouty.Person.&lt;init&gt;(Person.java:12)
+      	at shouty.Stepdefs.a_person_named_Lucy(Stepdefs.java:31)
+      	at ✽.Given a person named Lucy(shouty/shout.feature:15)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36ma person named Sean&amp;#27;[0m         &amp;#27;[90m# Stepdefs.a_person_named_Sean()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mSean shouts &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mFree bagels!&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Stepdefs.sean_shouts(String)&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mLucy hears Sean&apos;s message&amp;#27;[0m  &amp;#27;[90m# Stepdefs.lucy_hears_Sean_s_message()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Listener hears a different message" name="Scenario: Listener hears a different message" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at shouty.Person.&lt;init&gt;(Person.java:12)
+	at shouty.Stepdefs.lucy_is_located_m_from_Sean(Stepdefs.java:25)
+	at ✽.Given Lucy is 15m from Sean(shouty/shout.feature:21)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Listener hears a different message" name="When Sean shouts &quot;Free coffee!&quot;" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Listener hears a different message" name="Then Lucy hears Sean&apos;s message" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Listener is within range" name="Scenario: Listener is within range" time="0.006"/>
+  <testcase classname="Scenario: Listener is out of range" name="Scenario: Listener is out of range" time="0"/>
+</testsuite>
